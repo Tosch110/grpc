@@ -1,0 +1,19 @@
+{
+  "name": "grpc_example",
+  "version": "1.0.0",
+  "description": "An example gRPC application for the Cosmos SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node --presets es2015 index.js",
+    "http": "babel-node --presets es2015 http_call.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.1.8",
+    "axios": "^0.21.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
